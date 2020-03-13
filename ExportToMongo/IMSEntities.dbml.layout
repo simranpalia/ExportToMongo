@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="IMSEntities">
+  <DataContextMoniker Name="/IMSEntitiesDataContext" />
+  <nestedChildShapes>
+    <classShape Id="b098f54d-f093-44b8-8903-fbdbafa3753e" absoluteBounds="3.5, 1, 2, 4.4631168619791666">
+      <DataClassMoniker Name="/IMSEntitiesDataContext/Mail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e97e7923-6a35-489b-976d-57626575dfb6" absoluteBounds="3.515, 1.46, 1.9700000000000002, 3.903116861979167" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7e033da3-7eca-46ec-be66-7c77fe91889f" absoluteBounds="0.75, 1.875, 2, 2.732403971354167">
+      <DataClassMoniker Name="/IMSEntitiesDataContext/MailConversation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f3d59149-97a6-4a03-8872-fe5a2b6cd0aa" absoluteBounds="0.765, 2.335, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 3.24120198567708); (3.5 : 3.24120198567708)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/IMSEntitiesDataContext/MailConversation/MailConversation_Mail" />
+      <nodes>
+        <classShapeMoniker Id="7e033da3-7eca-46ec-be66-7c77fe91889f" />
+        <classShapeMoniker Id="b098f54d-f093-44b8-8903-fbdbafa3753e" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
